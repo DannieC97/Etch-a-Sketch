@@ -1,0 +1,107 @@
+:root {
+    --rowNum: 16;
+    --columnNum: 16;
+}
+
+
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+}
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+label {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#container {
+    display: grid;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: grey;
+    border: 5px solid black;
+    margin: auto;
+    width: 100vmin;
+    height: 80vmin;
+    grid-template-columns: repeat(var(--columnNum), 1fr);
+    grid-template-rows: repeat(var(--rowNum), 1fr);
+    margin-top: 15px;
+    
+   
+}
+    
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    
+    
+    
+}
+.cell {
+    background-color: grey;
+    border:1px black;
+    border-style: solid;
+}
+div {
+    display: block;
+}
+.btn {
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+
+}
+#inputAns {
+    
+
+}
+#colorInput {
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+    
+
+}
+#lbl2 {
+    margin-left: 20px;
+}
+.rainbowBtn {
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.3s;
+    margin-left: 10px;
+
+}
+.rainbowBtn:hover {
+    background-color: black;
+    color: white;
+
+}
